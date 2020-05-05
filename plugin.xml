@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="en">GluFl Theme</label>
+    <label lang="de">GluFl Theme</label>
+    <version>1.7.1</version>
+    <copyright>(c) by Gläser und Flaschen GmbH</copyright>
+    <license>GPL</license>
+    <link>http://www.glaeserundflaschen.de</link>
+    <author>KMATTERN</author>
+    <compatibility minVersion="5.2.0" />
+    <description>Dies ist ein angepasstes Template bzw Theme für Gläser und Flaschen GmbH</description>
+</plugin>

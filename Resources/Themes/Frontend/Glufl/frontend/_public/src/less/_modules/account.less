@@ -1,0 +1,27 @@
+.payment--status-icon  {
+    .unitize-width(8);
+    .unitize-height(8);
+    .unitize(top, 8);
+    display: inline-block;
+    position: relative;
+
+    &.status--9,   // Teilweise in Rechnung
+    &.status--10,  // Komplett in Rechnung gestellt
+    &.status--11,  // Teilweise Bezahlt
+    &.status--17, // Offene Zahlung
+    &.status--18, // Offene Zahlung
+    &.status--21 { // Klärungsbedarf (zb abweichender Betrag bezahlt)
+        background: @highlight-info;
+    }
+
+    &.status--12 {  // Komplett bezahlt
+        background: @highlight-success;
+    }
+
+    &.status--13,  // 1. Mahnug
+    &.status--14,  // 2. Mahnung
+    &.status--15,  // 3. Mahnung
+    &.status--16 { // Inkasso
+        background: @highlight-error;
+    }
+}
