@@ -23,7 +23,7 @@
                                         {elseif $sProperty.value > 100}
                                                 {($sProperty.value/10)|escape|string_format:"%.2f"|replace:'.':','} cm
                                         {else}
-                                                {$sProperty.value|escape|replace:'.':','} mm
+                                                {$sProperty.value|escape|string_format:"%.2f"|replace:'.':','} mm
                                         {/if}
                                 {else}
                                         {$sProperty.value|escape}
@@ -53,7 +53,7 @@
                                 {elseif $sArticle.width > 100}
                                         {($sArticle.width/10)|string_format:"%.2f"|replace:'.':','} cm
                                 {else}
-                                        {$sArticle.width|replace:'.':','} mm
+                                        {$sArticle.width|string_format:"%.2f"|replace:'.':','} mm
                                 {/if}
                     </li>
                             </span>
