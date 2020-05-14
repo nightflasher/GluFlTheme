@@ -1,3 +1,4 @@
+{extends file="parent:frontend/account/order_item.tpl"}
 {block name="frontend_account_order_item_overview_row"}
     <div class="order--item panel--tr">
 
