@@ -3,7 +3,7 @@
 <!--	<p class="content--sku content">
 		{s name="CartItemInfoId"}{/s} {$sBasketItem.ordernumber}
 	</p>
-//--!>
+//-->
 	{$smarty.block.parent}
 {/block}
 {block name='frontend_checkout_cart_item_delivery_informations'}
