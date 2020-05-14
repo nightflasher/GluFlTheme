@@ -52,7 +52,7 @@
 	{if $offerPosition.paymentID == '2' OR $offerPosition.paymentID == '6'}
         	{s name="payment_options_sepa_label" namespace="themes/views/backend/config"}{/s}
         {elseif $offerPosition.paymentID == '3'}
-                {s name="payment_options_cashondelivery_label" namespace="themes/views/backend/config}{/s}
+                {s name="payment_options_cashondelivery_label" namespace="themes/views/backend/config"}{/s}
         {elseif $offerPosition.paymentID == '4'}
                 {s name="payment_options_bill_label" namespace="themes/views/backend/config"}{/s}
         {elseif $offerPosition.paymentID == '5'}
