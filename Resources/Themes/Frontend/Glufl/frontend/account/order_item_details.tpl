@@ -40,7 +40,7 @@
 
                             {* Name *}
                             {block name="frontend_account_order_item_name"}
-                                <a class="order--name is--strong"  href="{url controller=detail sArticle=$article.articleID}" title="{$article.name|strip_tags|escape}"
+                                <a class="order--name is--strong"  href="{url controller=detail sArticle=$article.article.articleID}" title="{$article.name|strip_tags|escape}"
         	                    {if {config name=detailmodal} && {controllerAction|lower} === 'confirm'}
                 	               data-modalbox="true"
                 	               data-content="{url controller="detail" action="productQuickView" ordernumber="{$article.articleID}" fullPath}"
